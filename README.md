@@ -20,7 +20,9 @@ There is a 'code' folder in which all code for linear models are stored.
 
 ## Rendered output
 
-The rendered pdf for the abalone linear model is [here]https://github.com/themilamatich/workshop-07_spring-2026/blob/main/code/abalone-example.pdf. 
+The rendered pdf for the abalone linear model is [here](https://github.com/themilamatich/workshop-07_spring-2026/blob/main/code/abalone-example.pdf). 
+
+The rendered pdf for the sonadora temperature linear model is [here](https://github.com/themilamatich/workshop-07_spring-2026/blob/main/code/sonadora-temperature-example.pdf).
 
 
 
