@@ -12,7 +12,6 @@ This repo provides examples of fitting, diagnosing, and visualizing linear model
 
 This is a fork of a repo from the ENVS-193DS-2026 organization. 
 
-
 ## Data and file information
 
 There is a 'data' folder in which data files are stored. 
