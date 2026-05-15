@@ -116,6 +116,7 @@ plot(temperature_model) # display diagnostic plot
 ```{r}
 #| label: temperature-model-summary
 
+# displaying model summary 
 summary(temperature_model)
 
 ```
