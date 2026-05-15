@@ -106,8 +106,8 @@ temperature_model <- lm(
 #| label: temperature-diagnostics
 
 # diagnostics
-par(mfrow = c(2, 2))
-plot(temperature_model)
+par(mfrow = c(2, 2)) # displays plot in 2x2 grid !
+plot(temperature_model) # display diagnostic plot 
 
 ```
 
