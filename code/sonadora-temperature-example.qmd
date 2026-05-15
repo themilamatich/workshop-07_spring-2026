@@ -150,10 +150,11 @@ ggpredict(
 
 # base layer
 ggplot(data = sonadora_sum, 
-       aes(x = elevation_m,
-           y = mean_temp_c)) +
+       # labeling x and y axes 
+       aes(x = elevation_m, # x = elevation 
+           y = mean_temp_c)) + # y = mean temp 
   # first layer: temperature at each elevation
-  geom_point() +
+  geom_point(color = "pink1") + # 
   # 95% CI ribbon
   # uses model prediction data frame
   geom_ribbon(data = temperature_preds,
@@ -161,6 +162,8 @@ ggplot(data = sonadora_sum,
                   y = predicted,
                   ymin = conf.low,
                   ymax = conf.high),
+              color = "pink",
+              fill = "lightyellow",
               alpha = 0.2) +
   # model prediction line
   # uses model prediction data frame
