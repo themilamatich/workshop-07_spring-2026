@@ -79,10 +79,11 @@ sonadora_sum <- sonadora_clean |>
 
 # base layer: ggplot
 ggplot(data = sonadora_sum, 
+       # labeling x and y-axis
        aes(x = elevation_m,
            y = mean_temp_c)) +
   # first layer: points representing temperature at each elevation
-  geom_point()
+  geom_point(color = "dodgerblue3") # adding costum color
 
 ```
 
